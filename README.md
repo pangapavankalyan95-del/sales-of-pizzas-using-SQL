@@ -8,12 +8,14 @@ Analyze pizza sales data using SQL to extract insights on revenue, customer beha
 - MySQL Workbench
 - GitHub
 
-'''
-📂 Project Structure
+
+## 📂 Project Structure
+
+```bash
 pizza-sales-sql-analysis/
 │
 ├── results/
-│   ├── total_orders.png
+│   ├── avg_orders_per_day.png
 │   ├── total_revenue.png
 │   ├── highest_priced_pizza.png
 │   ├── most_common_size.png
@@ -28,15 +30,18 @@ pizza-sales-sql-analysis/
 │
 ├── pizza_analysis.sql
 └── README.md
+```
 
-'''
+
 ---------------- Basic Analysis -------------------------
 
 1) Total Number of Orders
 Query Purpose: Count total orders placed.
 
 📸 Image file: "results/total_orders.png"
+
 ![Total Orders](results/total_orders.png)
+
 
 Insight: Represents overall demand and transaction volume.
 
@@ -44,7 +49,9 @@ Insight: Represents overall demand and transaction volume.
 Query Purpose: Calculate total revenue from all pizza sales.
 
 📸 Image file: "results/total_revenue.png"
+
 ![Total Revenue](results/total_revenue.png)
+
 
 Insight: Indicates total earnings and business performance.
 
@@ -62,7 +69,9 @@ Insight: Premium products contribute higher revenue per order.
 Query Purpose: Find the most frequently ordered pizza size.
 
 📸 Image file: "results/most_common_size.png"
+
 ![Most Common Size](results/most_common_size.png)
+
 
 Insight: Helps in stock and inventory planning.
 
@@ -71,7 +80,9 @@ Insight: Helps in stock and inventory planning.
 Query Purpose: Retrieve most popular pizzas based on quantity.
 
 📸 Image file: "results/top_5_pizzas.png"
+
 ![Top 5 Pizzas](results/top_5_pizzas.png)
+
 
 Insight: These pizzas are key drivers of sales volume.
 
@@ -83,7 +94,9 @@ Insight: These pizzas are key drivers of sales volume.
 Query Purpose: Analyze order distribution across different hours.
 
 📸 Image file: "results/peak_hours.png"
+
 ![Peak Hours](results/peak_hours.png)
+
 
 Insight: Peak demand occurs in evening hours (dinner time).
 
@@ -92,7 +105,9 @@ Insight: Peak demand occurs in evening hours (dinner time).
 Query Purpose: Count pizzas across categories.
 
 📸 Image file: "results/category_distribution.png"
+
 ![Category Distribution](results/category_distribution.png)
+
 
 Insight: Shows variety and demand across categories.
 
@@ -101,7 +116,9 @@ Insight: Shows variety and demand across categories.
 Query Purpose: Calculate average pizzas ordered per day.
 
 📸 Image file: "results/avg_orders_per_day.png"
+
 ![Average Orders](results/avg_orders_per_day.png)
+
 
 Insight: Helps understand daily demand trends.
 
@@ -110,7 +127,9 @@ Insight: Helps understand daily demand trends.
 Query Purpose: Identify highest revenue-generating pizzas.
 
 📸 Image file: "results/top_revenue_pizzas.png"
+
 ![Top Revenue Pizzas](results/top_revenue_pizzas.png)
+
 
 Insight: High-value products contribute most to revenue.
 
@@ -120,7 +139,9 @@ Insight: High-value products contribute most to revenue.
 Query Purpose: Calculate percentage contribution of each category.
 
 📸 Image file: "results/category_contribution.png"
+
 ![Category Contribution](results/category_contribution.png)
+
 
 Insight: Identifies dominant revenue-generating categories.
 
@@ -129,7 +150,9 @@ Insight: Identifies dominant revenue-generating categories.
 Query Purpose: Track running total of revenue.
 
 📸 Image file: "results/cumulative_revenue.png"
+
 ![Cumulative Revenue](results/cumulative_revenue.png)
+
 
 Insight: Shows business growth trend over time.
 
@@ -138,9 +161,12 @@ Insight: Shows business growth trend over time.
 Query Purpose: Find best pizzas within each category.
 
 📸 Image file: "results/top_pizzas_by_category.png"
+
 ![Top Pizzas by Category](results/top_pizzas_by_category.png)
 
+
 Insight: Helps optimize category-level product strategy.
+
 
 
 📈 Conclusion
