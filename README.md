@@ -8,7 +8,7 @@ Analyze pizza sales data using SQL to extract insights on revenue, customer beha
 - MySQL Workbench
 - GitHub
 
-
+'''
 📂 Project Structure
 pizza-sales-sql-analysis/
 │
@@ -29,7 +29,7 @@ pizza-sales-sql-analysis/
 ├── pizza_analysis.sql
 └── README.md
 
-
+'''
 ---------------- Basic Analysis -------------------------
 
 1) Total Number of Orders
