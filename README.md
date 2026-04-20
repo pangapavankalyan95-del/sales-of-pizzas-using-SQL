@@ -35,6 +35,7 @@ pizza-sales-sql-analysis/
 
 ---------------- Basic Analysis -------------------------
 
+
 1) Total Number of Orders
 Query Purpose: Count total orders placed.
 
@@ -44,6 +45,8 @@ Query Purpose: Count total orders placed.
 
 
 Insight: Represents overall demand and transaction volume.
+
+
 
 2) Total Revenue
 Query Purpose: Calculate total revenue from all pizza sales.
@@ -56,6 +59,7 @@ Query Purpose: Calculate total revenue from all pizza sales.
 Insight: Indicates total earnings and business performance.
 
 
+
 3) Highest Priced Pizza
 Query Purpose: Identify the most expensive pizza on the menu.
 
@@ -63,6 +67,8 @@ Query Purpose: Identify the most expensive pizza on the menu.
 ![Highest Priced Pizza](results/highest_priced_pizza.png)
 
 Insight: Premium products contribute higher revenue per order.
+
+
 
 
 4) Most Common Pizza Size
@@ -76,6 +82,8 @@ Query Purpose: Find the most frequently ordered pizza size.
 Insight: Helps in stock and inventory planning.
 
 
+
+
 5) Top 5 Most Ordered Pizzas
 Query Purpose: Retrieve most popular pizzas based on quantity.
 
@@ -87,7 +95,9 @@ Query Purpose: Retrieve most popular pizzas based on quantity.
 Insight: These pizzas are key drivers of sales volume.
 
 
+
 ---------- Intermediate Analysis ---------------------------
+
 
 6) Orders by Hour (Peak Time)
 
@@ -101,6 +111,7 @@ Query Purpose: Analyze order distribution across different hours.
 Insight: Peak demand occurs in evening hours (dinner time).
 
 
+
 7) Category-wise Distribution
 Query Purpose: Count pizzas across categories.
 
@@ -110,6 +121,8 @@ Query Purpose: Count pizzas across categories.
 
 
 Insight: Shows variety and demand across categories.
+
+
 
 
 8) Average Orders Per Day
@@ -123,6 +136,8 @@ Query Purpose: Calculate average pizzas ordered per day.
 Insight: Helps understand daily demand trends.
 
 
+
+
  9) Top 3 Pizzas by Revenue
 Query Purpose: Identify highest revenue-generating pizzas.
 
@@ -133,7 +148,11 @@ Query Purpose: Identify highest revenue-generating pizzas.
 
 Insight: High-value products contribute most to revenue.
 
+
+
 --------- Advanced Analysis ---------
+
+
 
 10) Revenue Contribution by Category
 Query Purpose: Calculate percentage contribution of each category.
@@ -144,6 +163,7 @@ Query Purpose: Calculate percentage contribution of each category.
 
 
 Insight: Identifies dominant revenue-generating categories.
+
 
 
 11) Cumulative Revenue Over Time
@@ -157,6 +177,8 @@ Query Purpose: Track running total of revenue.
 Insight: Shows business growth trend over time.
 
 
+
+
 12) Top 3 Pizzas by Category
 Query Purpose: Find best pizzas within each category.
 
@@ -166,6 +188,7 @@ Query Purpose: Find best pizzas within each category.
 
 
 Insight: Helps optimize category-level product strategy.
+
 
 
 
